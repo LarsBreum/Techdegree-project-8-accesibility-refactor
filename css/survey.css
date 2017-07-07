@@ -16,7 +16,22 @@ form {
 }
 .newsletter{
   text-align: right;
-
+}
+select {
+  background-color: #2d2b30;
+  color: #ffa500;
+  outline: #020202;
+  padding: 10px;
+  font-size: 1.5rem;
+  transition: focus 1s;
+}
+input, textarea {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #cecece;
+  font-size: 1.5em;
 }
 
 
