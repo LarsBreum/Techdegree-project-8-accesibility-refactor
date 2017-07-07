@@ -64,11 +64,25 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.overlay h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+.overlay h3 {
+  font-size: 3.2rem;
+  margin: 0;
 }
 
 .tag {

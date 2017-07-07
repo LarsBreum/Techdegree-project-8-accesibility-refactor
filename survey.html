@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -18,10 +18,14 @@
       </ul>
     </div>
 
-    <header>
+    <header role="banner">
+      <div class="overlay">
+        <h1>Accessible Frog</h1>
+        <h3>We make awesome music</h3>
+      </div>
     </header>
 
-    <main>
+    <main role="content">
       <p class= "heading">Survey</p>
       <div class="card">
         <div class="flex">
@@ -35,7 +39,7 @@
               <input type="radio" name="res" value="Sally"> Sally
 
               <p>What is your favorite album:</p>
-              <select id="albums" name="select">
+              <select id="albums" name="select" role="form">
                 <option value="1">Party For An Angel</option>
                 <option value="2">A Day Of Old</option>
                 <option value="3">Finding My Shadow</option>
@@ -71,7 +75,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="site information">
       <ul>
         <li><a href="#" class="social twitter"><img src= "img/twitter-32.png"></a></li>
         <li><a href="#" class="social youtube"><img src= "img/youtube-32.png"></a></li>
