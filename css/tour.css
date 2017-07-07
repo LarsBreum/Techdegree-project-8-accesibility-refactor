@@ -5,6 +5,9 @@ table {
   color: white;
   margin: 0 auto;
 }
+table caption {
+	visibility: hidden;
+}
 
 .h1{
   display: inline-block;
@@ -14,7 +17,10 @@ table {
 .pick{
   width: 40px;
   height: 0%;
-  padding: 10px;
+  padding: 5px;
+}
+.pick1 {
+	float: left;
 }
 .table-wrapper {
 	width:100%;
@@ -28,11 +34,12 @@ table {
 .heading-wrapper {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
 }
-.card h1::before {
-    content: url(img/guitar_pick.png);
+td {
+  font-weight: 300;
 }
-.card h1::after {
-	content: " - Hello";
+
+th,
+td {
+  padding: .25em 1em;
 }
