@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: rgb(172, 187, 181);
   background: #2d2b30;
 }
 
@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffa500;
+  color: coral;
 }
 
 a:hover {
@@ -81,12 +81,15 @@ header {
   height: 100%;
 }
 .overlay h1 {
-  font-size: 5rem;
+  font-size: 10vw;
   margin: 0;
+  text-shadow: 0 5px 5px black;
 }
 .overlay h3 {
-  font-size: 3.2rem;
-  margin: 0;
+  font-size: 7vw;
+  margin: 0 10px;
+  text-shadow: 0 5px 5px black;
+  color: coral;
 }
 
 .tag {
@@ -110,8 +113,7 @@ header .name{
 }
 
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 10px;
   text-align: left;
   border-top: 4px solid #ffa500;
   clear: both;

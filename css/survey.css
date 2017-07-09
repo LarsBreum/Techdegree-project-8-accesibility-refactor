@@ -10,20 +10,78 @@ form {
   text-align: left;
   display: inline-block;
 }
-
+form p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+legend {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: coral;
+}
+label {
+  display: block;
+  color: rgb(172, 187, 181);
+}
+label[for="john"],
+label[for="hazzard"],
+label[for="bob"],
+label[for="sally"] {
+  display: inline;
+}
+fieldset {
+  border: 2px groove #ffa500;
+  color: #ffa500;
+}
+form label,
+label {
+  padding: 10px 0 10px 0;
+  font-size: 1.3rem;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  transition: box-shadow .2s ease-in-out;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  box-shadow: 0px 2px 2px #ffa500;
+}
 .container{
   text-align: center;
 }
 .newsletter{
-  text-align: right;
+  text-align: left;
+}
+button[type="submit"] {
+  padding: 20px;
+  border: 2px solid coral;
+  border-radius: 5px;
+  background-color: rgba(02, 02, 02, 0.2);
+  font-size: 1.3rem;
+  width: 100%;
+  color: coral;
+  margin: 10px 10px 10px 0;
+  transition: background-color .2s, color .2s ease-in-out;
+  font-weight: bold;
+}
+button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: coral;
+  color: #020202;
 }
 select {
   background-color: #2d2b30;
-  color: #ffa500;
+  color: coral;
   outline: #020202;
   padding: 10px;
   font-size: 1.5rem;
   transition: focus 1s;
+}
+option:hover {
+  background-color: coral;
 }
 input, textarea {
   border-radius: 5px;
@@ -33,11 +91,17 @@ input, textarea {
   background-color: #cecece;
   font-size: 1.5em;
 }
+text-area {
+  min-height: 400px;
+}
 
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
+  }
+  fieldset {
+    border: none;
   }
 }
