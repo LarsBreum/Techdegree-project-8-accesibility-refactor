@@ -54,7 +54,7 @@
                   <option value="10">Song For Yesterday</option>
                   <option value="11">This Is For You</option>                
                 </select>
-                <label for="song" aria-describedby="question">What is your favorite song:</label>
+                <label for="song" aria-describedby="song">What is your favorite song:</label>
                 <textarea id="song"></textarea>
               </fieldset>
             </form>
@@ -66,13 +66,13 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="the band">
             <div class="container">
-              <form aria-describedby="newsletter signup form" class="newsletter">
-                <fieldset>
+              <form aria-describedby="signup" class="newsletter">
+                <fieldset id="signup">
                   <legend>Sign Up!</legend>
                     <label for="name">Name:</label> <input id="name" type ="text" name="textfield">
                     <label for="email">Email: </label> <input id="email" type ="email" name="textfield">
                     <label for="re-email">Retype Email:</label> <input id="re-email" type ="email" name="textfield">
-                    <button aria-describedby="submits and signs up for newsletter" type="submit">Sign Up</button>
+                    <button type="submit">Sign Up</button>
                 </fieldset>
               </form>
             </div>

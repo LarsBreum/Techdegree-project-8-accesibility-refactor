@@ -95,12 +95,6 @@ header {
   color: coral;
 }
 
-.tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
-}
-
 .name{
   font-weight: 300;
 }
