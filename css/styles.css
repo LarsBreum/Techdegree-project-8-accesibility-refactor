@@ -73,7 +73,7 @@ header {
   background-size: cover;
   overflow: hidden;
   height: 350px;
-  padding: 60px 50px 10px 10px;
+  padding: 0;
   text-align: center;
 }
 .overlay {
@@ -82,11 +82,13 @@ header {
   justify-content: center;
   height: 100%;
   text-align: center; 
+  width: 100vw;
 }
 .overlay h1 {
   font-size: 9vw;
   margin: 0;
   text-shadow: 0 5px 5px black;
+  text-align: center;
 }
 .overlay h3 {
   font-size: 6vw;
