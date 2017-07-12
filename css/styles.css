@@ -17,6 +17,7 @@ body {
 a {
   text-decoration: none;
   color: coral;
+  transition: color .4s; 
 }
 
 a:hover {
@@ -59,13 +60,6 @@ p, span {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
-  transition: all .5s;
-}
-
-.nav a:hover {
-  color: white
-}
 
 header {
   text-align: center;
